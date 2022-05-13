@@ -1,0 +1,160 @@
+body {
+    background-color: #282828;
+    font-family: 'Noto Sans TC', sans-serif;
+    text-align : center;
+}
+h1 { 
+    color: #bbd460;
+    height : 50px;
+    font-size: 3vw;
+}
+h2 {
+    color: #ebdbb2;
+    height : 75px;
+    font-size: 2.2vw;
+    margin-bottom: -1vw;
+}
+h3 {
+    color: #ebdbb2;
+    height : 80px;
+    font-size: 2.3vw;
+    margin-bottom: -3vw;
+}
+h4 {
+    color: #ebdbb2;
+    height : 20px;
+    font-size: 2.3vw;
+}
+h5 {
+    color: #ebdbb2;
+    height : 80px;
+    font-size: 2.3vw;
+    margin-top: 2.5vw;
+    margin-bottom: 2vw;
+}    
+h6 {
+    color: #000000;
+    font-size: 2vw;
+    margin-top: -2vw;
+    position:relative;
+}
+#drapeau {
+    margin-top: -2vw;
+    margin-bottom: 1vw;}
+#img {margin-bottom: -2vw;}
+#fin {margin-top: 4vw;}
+.bouton {
+    box-shadow: 0px 1px 0px 0px #1c1b18;
+    background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+    background-color:#eae0c2;
+    border-radius:15px;
+    border:2px solid #333029;
+    cursor:pointer;
+    color:#505739;
+    font-family:Arial;
+    font-size:20px;
+    font-weight:bold;
+    padding:12px 16px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+}
+.bouton:hover {
+    background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+    background-color:#ccc2a6;
+}
+.bouton:active {
+    border-top-color: #748996;
+    background: #dadb8d;
+}
+.saisie {
+    box-shadow: 0px 1px 0px 0px #1c1b18;
+    background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+    background-color:#eae0c2;
+    border-radius:13px;
+    border:2px solid #333029;
+    cursor:pointer;
+    color:#070707;
+    font-family:Arial;
+    font-size:20px;
+    font-weight:bold;
+    padding:10px 10px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+}
+#Nombre_de_vies {
+    color: #ebdbb2;
+    height : 20px;
+    font-size: 1.5vw;
+}
+#vies {    
+    color: #ebdbb2;
+    height : 20px;
+    font-size: 1.5vw;
+}
+.image_licence{
+    position:fixed;
+    right:0;
+    bottom:0;
+    margin:0;
+}
+.lien_licence{
+    position:fixed;
+    font-size:20px;
+    right:0;
+    bottom:35px;
+    margin:0;
+    color: #ebdbb2;
+}
+
+.creat {
+    font-family:Arial;
+    font-size:15px;
+    position:fixed;
+    left: 2;
+    bottom:0;
+    margin: 1;
+    color: #ebdbb2;
+}
+
+.code_couleur_bon{
+    color: #2ec209;
+    font-size: 20px;
+}
+.code_couleur_moyen{
+    color: #e2fa0f;
+    font-size:20px;
+}
+.code_couleur_faux{
+    color: #ff0000;
+    font-size: 20px;
+    height: 50px;
+    margin-bottom: 0.5vw;
+}
+.lettre_mauvaise {    
+    color: #e91616;
+    height : 50px;
+    font-size: 1.5vw;
+    margin-top: 1vw;
+    margin-bottom: -2vw;
+}
+
+.case {    
+    font-size: 2vw;
+    letter-spacing:0.2vw;
+    position: fixed;
+}
+
+.lettre {
+    position: fixed;
+    text-align: center;
+    margin-top: 0.3vw;
+    margin-left: 0.5vw;
+    letter-spacing:1.6vw;
+    
+}
+.div{
+    text-align: center;
+    margin-left: 41%;
+    padding-top:50px ; 
+    width: 1px;
+}
